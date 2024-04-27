@@ -1,0 +1,14 @@
+adapter:
+  kafka:
+    topic:
+      topic_event: <name-topic>
+      consumer_event: <name-topic>
+    producer:
+      config:
+        address: <address-brocker>
+      async: <synx-async>
+    consumer:
+      config:
+        address: <address-brocker>
+      topics: <list-topic>
+      group: <group-id>
